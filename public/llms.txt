@@ -1,0 +1,100 @@
+# FIX מטפחות — Generative Engine Optimization Map
+
+> FIX is a fashion boutique specializing in headscarves and designer cotton wear. The brand offers a curated collection including square scarves, mixed scarves, designer cottons, and evening scarves. The aesthetic is clean and elegant with a black-and-white palette, reflecting a modern, refined, and minimalist identity.
+
+---
+
+## Pages
+
+### בית
+https://fix-0d04fdfc.zappy5.app
+מטפחות מרובעות, כותנות מעצבים וצעיפי ערב בעיצוב מינימליסטי ומדויק. FIX מטפחות מביאה לך אופנה ואקססוריז שמשלבים יופי, צניעות וסגנון עכשווי. גלי את הקולקציה עכשיו.
+
+### קולקציות
+https://fix-0d04fdfc.zappy5.app/collections
+צללי בין מטפחות מרובעות בסטייל, מטפחות משולבות, כותנות מעצבים וצעיפי ערב מרהיבים. כל פריט נבחר בקפידה עבור האישה המודרנית. מצאי את המטפחת שתגדיר אותך מחדש.
+
+### הסיפור שלנו
+https://fix-0d04fdfc.zappy5.app/brand-story
+FIX נולדה מתוך אהבה לעיצוב נקי, אלגנטי ומדויק. גלי את הסיפור שמאחורי המותג שהפך מטפחות לנשים דתיות לפריט אופנה אמיתי. כי סגנון וצניעות הולכים יד ביד.
+
+### צור קשר
+https://fix-0d04fdfc.zappy5.app/contact
+יש שאלה על מטפחות מרובעות בסטייל, הזמנה מיוחדת או סתם רוצה לדעת עוד? צוות FIX כאן בשבילך. צרי קשר עכשיו ונשמח לעזור לך למצוא את הפריט המושלם.
+
+### Products
+https://fix-0d04fdfc.zappy5.app/products
+המוצרים שלנו - FIX מטפחות
+
+### Cart
+https://fix-0d04fdfc.zappy5.app/cart
+עגלת הקניות שלך
+
+### Checkout
+https://fix-0d04fdfc.zappy5.app/checkout
+תשלום
+
+### Login
+https://fix-0d04fdfc.zappy5.app/login
+התחברות לקוחות
+
+### Account
+https://fix-0d04fdfc.zappy5.app/account
+החשבון שלי
+
+### Order Success
+https://fix-0d04fdfc.zappy5.app/order-success
+תודה על ההזמנה
+
+### Product Detail
+https://fix-0d04fdfc.zappy5.app/product/:slug
+פרטי המוצר - FIX מטפחות
+
+### Category
+https://fix-0d04fdfc.zappy5.app/category/:slug
+מוצרים - FIX מטפחות
+
+## Legal & Policy
+
+### Privacy Policy
+https://fix-0d04fdfc.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://fix-0d04fdfc.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://fix-0d04fdfc.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## Products
+
+_No products are currently configured._
+
+---
+
+# Business Context (for LLM understanding)
+
+## About FIX מטפחות
+FIX is a fashion boutique specializing in headscarves and designer cotton wear. The brand offers a curated collection including square scarves, mixed scarves, designer cottons, and evening scarves. The aesthetic is clean and elegant with a black-and-white palette, reflecting a modern, refined, and minimalist identity.
+
+## Target Audience
+- נשים דתיות אופנתיות
+- מטפחות לדתיות
+- מטפחות בסטייל
+
+## Industry
+אופנה ואקססוריז
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://fix-0d04fdfc.zappy5.app/sitemap.xml
+- Robots: https://fix-0d04fdfc.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://fix-0d04fdfc.zappy5.app/llms-full.txt
+- Products (JSON): https://fix-0d04fdfc.zappy5.app/products.json
+- Products (Google Merchant RSS): https://fix-0d04fdfc.zappy5.app/product-feed.xml
