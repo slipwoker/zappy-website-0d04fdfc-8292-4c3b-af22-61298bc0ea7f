@@ -350,7 +350,7 @@
       <div class="search-results" id="mobile-search-results"></div>
     </div>
   
-<script>window.ZAPPY_WEBSITE_ID = "0d04fdfc-8292-4c3b-af22-61298bc0ea7f";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script>
+<script>window.ZAPPY_WEBSITE_ID = "0d04fdfc-8292-4c3b-af22-61298bc0ea7f";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -361,7 +361,7 @@
     </svg>
   </button>
 
-  <button class="phone-header-btn" data-phone="" aria-label="Call">
+  <button class="phone-header-btn" data-phone="0544530643" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
@@ -792,7 +792,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0544530643';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -843,7 +843,7 @@
             </span>
             <div class="contact-details-text">
               <span class="contact-details-label" style="color: rgb(22, 22, 22) !important;">טלפון</span>
-              <a href="tel:[business_phone]" class="contact-details-value">[business_phone]</a>
+              <a href="tel:0544530643" class="contact-details-value">0544530643</a>
             </div>
           </li>
 
@@ -856,7 +856,7 @@
             </span>
             <div class="contact-details-text">
               <span class="contact-details-label" style="color: rgb(22, 22, 22) !important;">אימייל</span>
-              <a href="mailto:[business_email]" class="contact-details-value">[business_email]</a>
+              <a href="mailto:fix5000@gmail.com" class="contact-details-value">fix5000@gmail.com</a>
             </div>
           </li>
 
@@ -883,7 +883,7 @@
             </span>
             <div class="contact-details-text">
               <span class="contact-details-label" style="color: rgb(22, 22, 22) !important;">וואטסאפ</span>
-              <a href="https://wa.me/[whatsapp_handle]" class="contact-details-value" aria-disabled="true" title="Social media link not configured" style="cursor: not-allowed; opacity: 0.6;">[whatsapp_handle]</a>
+              <a href="#" class="contact-details-value" aria-disabled="true" title="Social media link not configured" style="cursor: not-allowed; opacity: 0.6;;display:none !important;">[whatsapp_handle]</a>
             </div>
           </li>
         </ul>
@@ -891,14 +891,14 @@
         <div class="contact-social-row">
           <p class="zappy-editable"><span class="contact-social-label" style="color: rgb(22, 22, 22) !important;">עקבו אחרינו</span>
           </p><div class="contact-social-links">
-            <a href="https://instagram.com/[instagram_handle]" class="contact-social-link" aria-label="אינסטגרם" aria-disabled="true" title="Social media link not configured" style="cursor: not-allowed; opacity: 0.6;">
+            <a href="#" class="contact-social-link" aria-label="אינסטגרם" aria-disabled="true" title="Social media link not configured" style="cursor: not-allowed; opacity: 0.6;;display:none !important;">
               <svg data-element-type="icon" data-icon-type="svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
                 <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
                 <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"></path>
                 <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
               </svg>
             </a>
-            <a href="https://facebook.com/[facebook_handle]" class="contact-social-link" aria-label="פייסבוק" aria-disabled="true" title="Social media link not configured" style="cursor: not-allowed; opacity: 0.6;">
+            <a href="#" class="contact-social-link" aria-label="פייסבוק" aria-disabled="true" title="Social media link not configured" style="cursor: not-allowed; opacity: 0.6;;display:none !important;">
               <svg data-element-type="icon" data-icon-type="svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
               </svg>
@@ -992,15 +992,15 @@
           <ul class="contact-cf-info-list">
             <li class="contact-cf-info-item">
               <i class="fas fa-envelope contact-cf-icon" aria-hidden="true"></i>
-              <a href="mailto:[business_email]" class="contact-cf-info-link">[business_email]</a>
+              <a href="mailto:fix5000@gmail.com" class="contact-cf-info-link">fix5000@gmail.com</a>
             </li>
             <li class="contact-cf-info-item">
               <i class="fas fa-phone contact-cf-icon" aria-hidden="true"></i>
-              <a href="tel:[business_phone]" class="contact-cf-info-link">[business_phone]</a>
+              <a href="tel:0544530643" class="contact-cf-info-link">0544530643</a>
             </li>
             <li class="contact-cf-info-item">
               <i class="fab fa-whatsapp contact-cf-icon" aria-hidden="true"></i>
-              <a href="https://wa.me/[whatsapp_handle]" target="_blank" class="contact-cf-info-link">וואטסאפ</a>
+              <a href="#" target="_blank" class="contact-cf-info-link" style="display:none !important;">וואטסאפ</a>
             </li>
             <li class="contact-cf-info-item">
               <i class="fas fa-map-marker-alt contact-cf-icon" aria-hidden="true"></i>
@@ -1009,8 +1009,8 @@
           </ul>
 
           <div class="contact-cf-social-row">
-            <a href="https://instagram.com/[instagram_handle]" target="_blank" class="contact-cf-social-link" aria-label="אינסטגרם"><i class="fab fa-instagram"></i></a>
-            <a href="https://facebook.com/[facebook_handle]" target="_blank" class="contact-cf-social-link" aria-label="פייסבוק"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank" class="contact-cf-social-link" aria-label="אינסטגרם" style="display:none !important;"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank" class="contact-cf-social-link" aria-label="פייסבוק" style="display:none !important;"><i class="fab fa-facebook-f"></i></a>
           </div>
         </div>
 
@@ -1067,9 +1067,9 @@
         </a>
         <p class="footer-tagline">קולקציות מטפחות מעוצבות בסגנון בוטיק — אלגנטיות, נשיות ומיוחדות.</p>
         <div class="footer-social">
-          <a href="[facebook_handle]" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-          <a href="[instagram_handle]" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-          <a href="[whatsapp_handle]" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" aria-label="Facebook" style="display:none !important;"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram" style="display:none !important;"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="WhatsApp" style="display:none !important;"><i class="fab fa-whatsapp"></i></a>
         </div>
       </div>
 
@@ -1090,11 +1090,11 @@
         <ul class="footer-contact">
           <li>
             <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-            <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+            <span class="contact-text"><a href="mailto:fix5000@gmail.com">fix5000@gmail.com</a></span>
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-text"><a href="tel:0544530643">0544530643</a></span>
           </li>
           <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
             <span class="contact-text">[business_address]</span></a></li>
