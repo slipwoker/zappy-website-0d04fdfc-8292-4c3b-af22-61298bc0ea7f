@@ -2313,16 +2313,16 @@ html[dir="rtl"] .site-footer .footer-col:nth-child(3) .footer-contact li {
 html[dir="rtl"] .footer-contact .contact-icon { order: 0 !important; }
 html[dir="rtl"] .footer-contact .contact-text { order: 1 !important; }
 html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
-/* index-hero */
 .index-hero-section {
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  min-height: 60vw;
   background-color: #1a1a1a;
   color: var(--text-light);
   overflow: visible;
   padding-bottom: 80px;
   direction: rtl;
+  max-height: 75vh;
 }
 
 /* ── Background Image ── */
@@ -2337,10 +2337,11 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center top;
+  object-position: center center;
   display: block;
   border-radius: 0;
   box-shadow: none;
+  aspect-ratio: 16/9;
 }
 
 /* ── Warm Beige Wash (right side decorative) ── */
@@ -2376,14 +2377,13 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   pointer-events: none;
 }
 
-/* ── Card Wrapper: positions card in lower-right (RTL start) ── */
 .index-hero-section .index-hero-card-wrapper {
   position: relative;
   z-index: 10;
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
-  min-height: 100vh;
+  min-height: 60vw;
   padding: 0 5% 120px;
   box-sizing: border-box;
 }
