@@ -350,7 +350,7 @@
       <div class="search-results" id="mobile-search-results"></div>
     </div>
   
-<script>window.ZAPPY_WEBSITE_ID = "0d04fdfc-8292-4c3b-af22-61298bc0ea7f";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
+<script>window.ZAPPY_WEBSITE_ID = "0d04fdfc-8292-4c3b-af22-61298bc0ea7f";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -1020,7 +1020,7 @@
   </div>
 </section>
 
-<section class="contact-faq-section" dir="rtl" data-layout-spec="צור קשר-faq">
+<section class="contact-faq-section" dir="rtl" data-layout-spec="צור קשר-faq" id="contact-faq-section">
   <div class="contact-faq-container">
 
     <div class="contact-faq-header">
@@ -1030,22 +1030,26 @@
 
     <div class="contact-faq-list">
 
-      <article class="contact-faq-item">
+      <article class="contact-faq-item active" data-grid-item-index="0">
         <div class="contact-faq-divider-top" aria-hidden="true"></div>
-        <h3 class="contact-faq-question">על אילו קטגוריות מתמקדת הקולקציה של FIX?</h3>
-        <p class="contact-faq-answer">הקולקציה של FIX נבנתה בקפידה סביב ארבעה עולמות תוכן מרכזיים: מטפחות מרובעות בסגנון נקי ומדויק, מטפחות משולבות בשילובי בדים ייחודיים, כותנות מעוצבות לאופנה ואקססוריז יומיומית, ומטפחות ערב לאירועים מיוחדים. כל קטגוריה מציגה אוצרות אופנתיים שנבחרו עם עין יוצרת ותחושה בוטיקית מדויקת.</p>
+        <h3 class="contact-faq-question" style="cursor: pointer;" aria-expanded="true">על אילו קטגוריות מתמקדת הקולקציה של FIX?</h3>
+        <p class="contact-faq-answer" style="max-height: 174px; overflow: hidden; opacity: 1; transition: max-height 0.35s, opacity 0.25s, padding 0.25s;">הקולקציה של FIX נבנתה בקפידה סביב ארבעה עולמות תוכן מרכזיים: מטפחות מרובעות בסגנון נקי ומדויק, מטפחות משולבות בשילובי בדים ייחודיים, כותנות מעוצבות לאופנה ואקססוריז יומיומית, ומטפחות ערב לאירועים מיוחדים. כל קטגוריה מציגה אוצרות אופנתיים שנבחרו עם עין יוצרת ותחושה בוטיקית מדויקת.</p>
       </article>
 
-      <article class="contact-faq-item">
+      <article class="contact-faq-item" data-grid-item-index="1">
         <div class="contact-faq-divider-top" aria-hidden="true"></div>
-        <h3 class="contact-faq-question">כיצד ניתן לקבל ייעוץ סטייל אישי?</h3>
-        <p class="contact-faq-answer">אנחנו מאמינות שכל לקוחה ראויה לחוויית קנייה אישית ומדויקת. ניתן לפנות אלינו ישירות דרך טופס יצירת הקשר, ונשמח להנחות אתכן בבחירת המטפחת המתאימה ביותר לאירוע, לסגנון ולצבעוניות האישית שלכן. הייעוץ ניתן בחום ובמקצועיות.</p>
+        <h3 class="contact-faq-question" style="cursor: pointer;" aria-expanded="false">כיצד ניתן לקבל ייעוץ סטייל אישי?</h3>
+        <p class="contact-faq-answer" style="max-height: 0px; overflow: hidden; opacity: 0; transition: max-height 0.35s, opacity 0.25s, padding 0.25s; padding-top: 0px; padding-bottom: 0px;">אנחנו מאמינות שכל לקוחה ראויה לחוויית קנייה אישית ומדויקת. ניתן לפנות אלינו ישירות דרך טופס יצירת הקשר, ונשמח להנחות אתכן בבחירת המטפחת המתאימה ביותר לאירוע, לסגנון ולצבעוניות האישית שלכן. הייעוץ ניתן בחום ובמקצועיות.</p>
       </article>
 
-      <article class="contact-faq-item">
+      <article class="contact-faq-item" data-grid-item-index="2">
         <div class="contact-faq-divider-top" aria-hidden="true"></div>
-        <h3 class="contact-faq-question">מה זמן התגובה הצפוי לפנייה?</h3>
-        <p class="contact-faq-answer">אנו מתחייבות לחזור לכל פנייה תוך יום עסקים אחד. בעונות שיא ולקראת חגים ייתכן עיכוב קל, אך תמיד נעדכן אתכן. ניתן גם לפנות אלינו בוואטסאפ לתגובה מהירה יותר.</p>
+        <h3 class="contact-faq-question" style="cursor: pointer;" aria-expanded="false">מה זמן התגובה הצפוי לפנייה?</h3>
+        <p class="contact-faq-answer" style="max-height: 0px; overflow: hidden; opacity: 0; transition: max-height 0.35s, opacity 0.25s, padding 0.25s; padding-top: 0px; padding-bottom: 0px;">אנו מתחייבות לחזור לכל פנייה תוך יום עסקים אחד. בעונות שיא ולקראת חגים ייתכן עיכוב קל, אך תמיד נעדכן אתכן. ניתן גם לפנות אלינו בוואטסאפ לתגובה מהירה יותר.</p>
+      </article><article class="contact-faq-item" style="background-color: rgba(0, 0, 0, 0) !important; padding: 28px 0px !important; box-sizing: border-box; grid-column-start: auto !important; grid-column-end: auto !important; grid-row-start: auto !important; grid-row-end: auto !important;" data-grid-item-index="3">
+        <div class="contact-faq-divider-top" aria-hidden="true"></div>
+        <h3 class="contact-faq-question" style="cursor: text;" aria-expanded="false">האם אתם מוכרים גם בסיטונאות לעסקים?</h3>
+        <p class="contact-faq-answer" style="max-height: 0px; overflow: hidden; opacity: 0; transition: max-height 0.35s, opacity 0.25s, padding 0.25s; padding-top: 0px; padding-bottom: 0px; cursor: text;">טקסט כאן</p>
       </article>
 
       <div class="contact-faq-divider-bottom" aria-hidden="true"></div>
