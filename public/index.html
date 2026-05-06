@@ -245,6 +245,272 @@
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.index-cta-section {
+  background: #F5F0EB;
+  color: var(--text-dark);
+  padding: 100px 24px 80px;
+  position: relative;
+  overflow: visible;
+  direction: rtl;
+}
+
+.index-cta-section .index-cta-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+.index-cta-section .index-cta-header {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.index-cta-section .index-cta-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  letter-spacing: 0.04em;
+  margin: 0 0 14px;
+  line-height: 1.3;
+}
+
+.index-cta-section .index-cta-gold-rule {
+  width: 40px;
+  height: 2px;
+  background: #C9A882;
+  margin: 0 auto 16px;
+  border-radius: 2px;
+}
+
+.index-cta-section .index-cta-subtitle {
+  font-family: 'Heebo', sans-serif;
+  font-size: 1rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* Two-column layout */
+.index-cta-section .index-cta-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  gap: 64px;
+  align-items: start;
+  direction: rtl;
+}
+
+/* Image column */
+.index-cta-section .index-cta-image-col {
+  position: relative;
+}
+
+.index-cta-section .index-cta-image-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.index-cta-section .index-cta-corner-flourish {
+  position: absolute;
+  inset-inline-end: -16px;
+  top: -16px;
+  z-index: 0;
+  pointer-events: none;
+  aria-hidden: true;
+}
+
+.index-cta-section .index-cta-image-wrapper img {
+  display: block;
+  width: 100%;
+  height: 560px;
+  object-fit: cover;
+  object-position: center;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.10);
+}
+
+.index-cta-section .index-cta-image-tag {
+  position: absolute;
+  bottom: -14px;
+  inset-inline-start: -14px;
+  background: var(--bg-dark);
+  color: var(--text-light);
+  font-family: 'Heebo', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  padding: 8px 16px;
+  z-index: 2;
+}
+
+/* FAQ column */
+.index-cta-section .index-cta-faq-col {
+  padding-top: 8px;
+}
+
+/* Accordion */
+.index-cta-section .index-cta-accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.index-cta-section .index-cta-item {
+  border-bottom: 1px solid var(--border-light);
+}
+
+.index-cta-section .index-cta-item:first-child {
+  border-top: 1px solid var(--border-light);
+}
+
+.index-cta-section .index-cta-question {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 20px 0;
+  text-align: right;
+  gap: 16px;
+  font-family: 'Heebo', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-dark);
+  line-height: 1.5;
+  transition: color 0.2s ease;
+}
+
+.index-cta-section .index-cta-question:hover {
+  color: var(--accent);
+}
+
+.index-cta-section .index-cta-question span:first-child {
+  flex: 1;
+  text-align: right;
+}
+
+.index-cta-section .index-cta-icon {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+  transition: transform 0.3s ease, color 0.2s ease;
+}
+
+.index-cta-section .index-cta-question[aria-expanded='true'] .index-cta-icon {
+  transform: rotate(180deg);
+  color: var(--accent);
+}
+
+.index-cta-section .index-cta-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease, padding 0.35s ease;
+  padding-bottom: 0;
+}
+
+.index-cta-section .index-cta-answer.open {
+  max-height: 300px;
+  padding-bottom: 20px;
+}
+
+.index-cta-section .index-cta-answer p {
+  font-family: 'Heebo', sans-serif;
+  font-size: 1rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin: 0;
+  text-align: right;
+}
+
+.index-cta-section .index-cta-answer p strong {
+  color: var(--text-dark);
+  font-weight: 600;
+}
+
+/* Contact nudge */
+.index-cta-section .index-cta-contact-nudge {
+  margin-top: 32px;
+  text-align: right;
+}
+
+.index-cta-section .index-cta-contact-nudge p {
+  font-family: 'Heebo', sans-serif;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.index-cta-section .index-cta-link {
+  color: var(--text-dark);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.2s ease;
+}
+
+.index-cta-section .index-cta-link:hover {
+  color: var(--accent);
+}
+
+/* Responsive — tablet */
+@media (max-width: 1024px) {
+  .index-cta-section .index-cta-layout {
+    gap: 40px;
+  }
+}
+
+/* Responsive — mobile */
+@media (max-width: 768px) {
+  .index-cta-section {
+    padding: 64px 16px 60px;
+  }
+
+  .index-cta-section .index-cta-layout {
+    grid-template-columns: 1fr !important;
+    gap: 40px;
+  }
+
+  .index-cta-section .index-cta-image-col {
+    order: 2;
+  }
+
+  .index-cta-section .index-cta-faq-col {
+    order: 1;
+    padding-top: 0;
+  }
+
+  .index-cta-section .index-cta-image-wrapper img {
+    height: 320px;
+  }
+
+  .index-cta-section .index-cta-image-tag {
+    inset-inline-start: 0;
+    bottom: -12px;
+  }
+
+  .index-cta-section .index-cta-corner-flourish {
+    display: none;
+  }
+
+  .index-cta-section .index-cta-header {
+    margin-bottom: 36px;
+  }
+
+  .index-cta-section .index-cta-title {
+    font-size: 1.75rem;
+  }
+}
+</style>
     <link rel="stylesheet" href="/styles.css">
 
     <style id="zappy-dropdown-submenu-styles">
@@ -341,10 +607,10 @@
       <div class="search-wrapper">
         <input type="text" id="mobile-search-input" placeholder="חיפוש מוצרים..." autocomplete="off">
         <button class="search-submit" id="mobile-search-submit" title="חיפוש">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
         </button>
         <button class="close-search" id="close-mobile-search">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"></path></svg>
         </button>
       </div>
       <div class="search-results" id="mobile-search-results"></div>
@@ -354,16 +620,16 @@
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
     <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
 
   <button class="phone-header-btn" data-phone="0544530643" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
 
@@ -378,7 +644,7 @@
       <a href="/products">
         מוצרים
         <svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M6 9l6 6 6-6"/>
+          <path d="M6 9l6 6 6-6"></path>
         </svg>
       </a>
       <ul class="sub-menu" id="zappy-nav-category-links">
@@ -386,13 +652,13 @@
         <!-- Categories will be loaded dynamically -->
       </ul>
     </li>
-  <li><a href="/">בית</a></li><li><a href="/collections">קולקציות</a></li><li><a href="/brand-story">הסיפור שלנו</a></li><li><a href="/contact">צור קשר</a></li></ul><div class="nav-ecommerce-icons nav-icons-left"><a href="/login" class="login-link nav-login" title="התחברות"><svg class="login-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></a><a href="#cart" class="cart-link nav-cart" id="cart-drawer-toggle" title="עגלת קניות"><svg class="cart-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg><span class="cart-count">0</span></a><div class="nav-search-box">
+  <li><a href="/">בית</a></li><li><a href="/collections">קולקציות</a></li><li><a href="/brand-story">הסיפור שלנו</a></li><li><a href="/contact">צור קשר</a></li></ul><div class="nav-ecommerce-icons nav-icons-left"><a href="/login" class="login-link nav-login" title="התחברות"><svg class="login-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></a><a href="#cart" class="cart-link nav-cart" id="cart-drawer-toggle" title="עגלת קניות"><svg class="cart-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg><span class="cart-count">0</span></a><div class="nav-search-box">
     <input type="text" class="nav-search-input" id="nav-search-input" placeholder="חיפוש מוצרים..." autocomplete="off">
     <button class="nav-search-btn" id="nav-search-btn" title="חיפוש">
-      <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+      <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
     </button>
     <div class="nav-search-results" id="nav-search-results"></div>
-  </div></div><div class="nav-ecommerce-icons nav-icons-right"><button class="nav-search-toggle" id="mobile-search-toggle" title="חיפוש"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></button></div></div>
+  </div></div><div class="nav-ecommerce-icons nav-icons-right"><button class="nav-search-toggle" id="mobile-search-toggle" title="חיפוש"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg></button></div></div>
 
     
 
@@ -856,14 +1122,14 @@
   <!-- Bottom Divider: soft asymmetric curved ivory reveal -->
   <div class="index-hero-divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,52 Q120,28 360,44 Q600,60 720,36 Q900,14 1200,46 Q1320,58 1440,38 L1440,80 Z" fill="var(--bg-light)"/>
+      <path d="M0,80 L0,52 Q120,28 360,44 Q600,60 720,36 Q900,14 1200,46 Q1320,58 1440,38 L1440,80 Z" fill="var(--bg-light)"></path>
     </svg>
   </div>
 </section>
 
 <section class="fix-hero-wide" data-zappy-component="true" id="ai-section-1778065640335-1w7ohq0">
   <div class="fix-hero-wide__image-wrapper">
-    <img alt="Woman models shimmery white headscarf and black blazer. &apos;FIX &#x5de;&#x5d8;&#x5e4;&#x5d7;&#x5d5;&#x5ea;&apos; (headscarves) branding in background." class="fix-hero-wide__image" src="/assets/ai-section-1778065636331-0-52328bc2.png" data-context="ai-generated-section" data-placeholder="Click to upload new image">
+    <img alt="Woman models shimmery white headscarf and black blazer. 'FIX מטפחות' (headscarves) branding in background." class="fix-hero-wide__image" src="/assets/ai-section-1778065636331-0-52328bc2.png" data-context="ai-generated-section" data-placeholder="Click to upload new image">
     <div class="fix-hero-wide__overlay">
       <div class="fix-hero-wide__content">
         <h2 class="fix-hero-wide__title">FIX מטפחות</h2>
@@ -878,7 +1144,7 @@
   <div class="fix-hero-overlay"></div>
   <div class="fix-hero-container">
     <div class="fix-hero-image-wrap">
-      <img alt="Woman wearing a shimmering white headscarf looks at a backlit sign displaying &apos;FIX&apos; and &apos;&#x5de;&#x5d8;&#x5e4;&#x5d7;&#x5d5;&#x5ea;&apos; (headscarves)." class="fix-hero-img" src="/assets/ai-section-1778065793224-0-beb96e6d.png" data-context="ai-generated-section" data-placeholder="Click to upload new image">
+      <img alt="Woman wearing a shimmering white headscarf looks at a backlit sign displaying 'FIX' and 'מטפחות' (headscarves)." class="fix-hero-img" src="/assets/ai-section-1778065793224-0-beb96e6d.png" data-context="ai-generated-section" data-placeholder="Click to upload new image">
     </div>
     <div class="fix-hero-content">
       <span class="fix-hero-badge">קולקציה חדשה</span>
@@ -957,7 +1223,7 @@
       <!-- Card 1: מטפחות מרובעות -->
       <article class="index-category-card">
         <figure class="index-category-img-wrap">
-          <img data-placeholder="index-categories-image-1" data-context="Elegant square headscarf (mitpachat meruba" at) styled on a mannequin or model, flat lay portrait, clean ivory studio background, black and white fashion photography aesthetic, high-end boutique product shot, luxurious fabric texture visible, minimalist composition' width="600" height="750" src="/assets/site-index-categories-image-1.webp" alt="מטפחות מרובעות FIX">
+          <img data-placeholder="index-categories-image-1" data-context="Elegant square headscarf (mitpachat meruba" at)="" styled="" on="" a="" mannequin="" or="" model,="" flat="" lay="" portrait,="" clean="" ivory="" studio="" background,="" black="" and="" white="" fashion="" photography="" aesthetic,="" high-end="" boutique="" product="" shot,="" luxurious="" fabric="" texture="" visible,="" minimalist="" composition'="" width="600" height="750" src="/assets/site-index-categories-image-1.webp" alt="מטפחות מרובעות FIX">
         </figure>
         <div class="index-category-body">
           <h3 class="index-category-name">מטפחות מרובעות</h3>
@@ -1010,77 +1276,104 @@
   <!-- Bottom Divider: stepped paper-layer transition -->
   <div class="index-categories-divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1280 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <line x1="0" y1="1" x2="1280" y2="1" stroke="#161616" stroke-width="1"/>
-      <path d="M0,80 L0,20 L320,20 L320,40 L640,40 L640,20 L960,20 L960,40 L1280,40 L1280,80 Z" fill="var(--bg-light)"/>
+      <line x1="0" y1="1" x2="1280" y2="1" stroke="#161616" stroke-width="1"></line>
+      <path d="M0,80 L0,20 L320,20 L320,40 L640,40 L640,20 L960,20 L960,40 L1280,40 L1280,80 Z" fill="#FCFAF7"></path>
     </svg>
   </div>
 
 </section>
 
-<section class="index-showcase-section" data-layout-spec="בית-showcase" dir="rtl">
-  <div class="showcase-container">
-    <!-- Content Column (START = RIGHT in RTL) -->
-    <div class="showcase-content-col">
-      <!-- Corner flourish decoration -->
-      <div class="showcase-corner-flourish" aria-hidden="true">
-        <svg data-no-icon-edit="true" aria-hidden="true" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M80,2 L2,2 L2,80" stroke="#D4B06A" stroke-width="1" fill="none" opacity="0.35"/>
-        </svg>
+<section class="index-cta-section" data-layout-spec="בית-cta" dir="rtl">
+  <div class="index-cta-container">
+    <div class="index-cta-header">
+      <h2 class="index-cta-title">שאלות נפוצות</h2>
+      <div class="index-cta-gold-rule" aria-hidden="true"></div>
+      <p class="index-cta-subtitle">כל מה שרצית לדעת על מטפחות FIX — במקום אחד</p>
+    </div>
+
+    <div class="index-cta-layout">
+      <div class="index-cta-image-col">
+        <div class="index-cta-image-wrapper">
+          <div class="index-cta-corner-flourish" aria-hidden="true">
+            <svg data-no-icon-edit="true" aria-hidden="true" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M80 2 L2 2 L2 80" stroke="#C9B8A8" stroke-width="1.5" fill="none" opacity="0.5"></path>
+            </svg>
+          </div>
+          <img data-context="Elegant fashion boutique flat lay of luxurious headscarves in black, white, and warm beige tones, artfully arranged on a clean ivory surface. Square silk scarves and cotton evening scarves folded and draped with minimalist styling, soft natural light, editorial photography style." width="480" height="600" src="/assets/fix-section-בית-cta-index-cta-image-1.webp" alt="מטפחות FIX — קולקציית מטפחות אלגנטיות">
+          <div class="index-cta-image-tag">FIX COLLECTION</div>
+        </div>
       </div>
 
-      <div class="showcase-text-block">
-        <span class="showcase-eyebrow">הסגנון שלך. הבחירה שלך.</span>
-        <div class="showcase-gold-rule" aria-hidden="true"></div>
-        <h2 class="showcase-heading">אופנה שמדברת<br><em>בשקט ובביטחון</em></h2>
-        <p class="showcase-body-text">אצלנו ב-FIX, כל מטפחת היא הצהרת סגנון. אנו מציעות קולקציה מושגחת של מטפחות מרובעות, כותנות מעוצבות ומטפחות ערב – כי אופנה צנועה יכולה להיות גם מרהיבה ועכשווית.</p>
+      <div class="index-cta-faq-col">
+        <div class="index-cta-accordion">
 
-        <div class="showcase-style-notes">
-          <article class="style-note">
-            <div class="style-note-inner">
-              <h3 class="style-note-title">אלגנטיות יומיומית</h3>
-              <p class="style-note-desc">כותנות מעוצבות ומטפחות מרובעות בגוונים נקיים – לבוקר רענן ולצהריים שמרגישים כמו מגזין.</p>
+          <div class="index-cta-item">
+            <button class="index-cta-question" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded')==='true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('open');">
+              <span>מה ההבדל בין סוגי המטפחות?</span>
+              <span class="index-cta-icon" aria-hidden="true">
+                <svg data-no-icon-edit="true" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 7L9 12L14 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+              </span>
+            </button>
+            <div class="index-cta-answer">
+              <p>אנו מציעות ארבעה סוגים עיקריים: <strong>מטפחות מרובעות</strong> — קלאסיות ורב-תכליתיות; <strong>מטפחות מעורבות</strong> — שילוב בדים וטקסטורות ייחודי; <strong>כותנה מעצבים</strong> — נוחות מרבית עם אסתטיקה מינימליסטית; ו<strong>מטפחות ערב</strong> — מיוחדות לאירועים, עם עיטורים ואריגים מפוארים. כל קטגוריה נבחרה בקפידה כדי להתאים לאוקזיות ולסגנונות שונים.</p>
             </div>
-          </article>
-          <article class="style-note">
-            <div class="style-note-inner">
-              <h3 class="style-note-title">עיצוב לאירועים</h3>
-              <p class="style-note-desc">מטפחות ערב בבדים עשירים ועיטורים עדינים – כי כל אירוע מיוחד מצדיק לוק שלא ישכח.</p>
+          </div>
+
+          <div class="index-cta-item">
+            <button class="index-cta-question" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded')==='true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('open');">
+              <span>מה מדיניות המשלוחים?</span>
+              <span class="index-cta-icon" aria-hidden="true">
+                <svg data-no-icon-edit="true" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 7L9 12L14 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+              </span>
+            </button>
+            <div class="index-cta-answer">
+              <p>אנו שולחות לכל רחבי הארץ. משלוח רגיל מגיע תוך <strong>3–5 ימי עסקים</strong>, ומשלוח מהיר תוך <strong>1–2 ימי עסקים</strong>. עבור הזמנות מעל סכום מסוים, המשלוח חינם. לאחר שליחת ההזמנה תקבלי עדכון עם מספר מעקב.</p>
             </div>
-          </article>
-          <article class="style-note">
-            <div class="style-note-inner">
-              <h3 class="style-note-title">פשטות מוגבהת</h3>
-              <p class="style-note-desc">מטפחות משולבות בשכבות טקסטורה עדינות – הפרט הקטן שמעלה כל מראה לרמה אחרת.</p>
+          </div>
+
+          <div class="index-cta-item">
+            <button class="index-cta-question" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded')==='true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('open');">
+              <span>האם ניתן להחזיר מוצר?</span>
+              <span class="index-cta-icon" aria-hidden="true">
+                <svg data-no-icon-edit="true" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 7L9 12L14 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+              </span>
+            </button>
+            <div class="index-cta-answer">
+              <p>כן. ניתן להחזיר מוצרים תוך <strong>14 יום</strong> מיום קבלת ההזמנה, בתנאי שהמוצר לא נעשה בו שימוש ונמצא באריזתו המקורית. החזרות מטופלות בצורה מהירה ומכובדת — שביעות רצונך היא בראש סדר העדיפויות שלנו.</p>
             </div>
-          </article>
+          </div>
+
+          <div class="index-cta-item">
+            <button class="index-cta-question" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded')==='true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('open');">
+              <span>באילו בדים המטפחות עשויות?</span>
+              <span class="index-cta-icon" aria-hidden="true">
+                <svg data-no-icon-edit="true" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 7L9 12L14 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+              </span>
+            </button>
+            <div class="index-cta-answer">
+              <p>הקולקציה שלנו כוללת בדים מגוונים: <strong>כותנה מצרית</strong> רכה ונושמת, <strong>ויסקוז</strong> זורם ומחמיא, <strong>ג'רזי</strong> נמתח ונוח לשימוש יומיומי, ובדי <strong>ערב מיוחדים</strong> כמו שיפון וסאטן לאירועים. כל בד נבחר בקפידה לנוחות ולאסתטיקה.</p>
+            </div>
+          </div>
+
+          <div class="index-cta-item">
+            <button class="index-cta-question" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded')==='true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('open');">
+              <span>האם יש שירות התאמה אישית?</span>
+              <span class="index-cta-icon" aria-hidden="true">
+                <svg data-no-icon-edit="true" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 7L9 12L14 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+              </span>
+            </button>
+            <div class="index-cta-answer">
+              <p>בהחלט. אנו מציעות ייעוץ אישי לבחירת המטפחת המתאימה לסגנון, לאירוע ולצבעוניות האישית שלך. ניתן לפנות אלינו דרך הצ'אט, הטלפון, או לקבוע פגישת סטיילינג קצרה. אנו גם מקבלות הזמנות מיוחדות לאירועים ולמתנות.</p>
+            </div>
+          </div>
+
         </div>
 
-        <a href="/collection" class="showcase-cta btn-primary">לגלות את הקולקציה</a>
+        <div class="index-cta-contact-nudge">
+          <p>לא מצאת תשובה? <a href="/contact" class="index-cta-link">צרי קשר</a></p>
+        </div>
       </div>
     </div>
-
-    <!-- Imagery Column (END = LEFT in RTL) -->
-    <div class="showcase-imagery-col">
-      <!-- Stone frame around main image -->
-      <div class="showcase-frame-wrapper">
-        <div class="showcase-frame-border" aria-hidden="true"></div>
-        <figure class="showcase-main-figure">
-          <img data-placeholder="index-showcase-image-1" data-context="Elegant Israeli woman wearing a beautifully styled square headscarf (מטפחת מרובעת) in cream and black tones, photographed in a minimalist boutique setting. Clean white background, soft natural lighting, fashion editorial style. The scarf is tied with precision and artistry. Luxury modest fashion lookbook aesthetic." width="480" height="600" src="/assets/site-index-showcase-image-1.webp" alt="אישה עם מטפחת מרובעת מעוצבת בסגנון אופנתי ומינימליסטי" class="showcase-main-img">
-        </figure>
-        <!-- Textile detail tile peeking from END-bottom corner -->
-        <figure class="showcase-detail-figure">
-          <div class="showcase-detail-frame-border" aria-hidden="true"></div>
-          <img data-placeholder="index-showcase-image-2" data-context="Close-up textile detail of a luxury headscarf fabric — fine woven cotton with a subtle geometric or floral pattern in ivory and warm gold tones. Shot from above on a clean marble surface. Boutique fashion accessories photography, macro detail, warm natural light." width="200" height="200" src="/assets/site-index-showcase-image-2.webp" alt="פרט טקסטיל של בד מטפחת יוקרתי בגוונים חמים" class="showcase-detail-img">
-        </figure>
-      </div>
-    </div>
-  </div>
-
-  <!-- Bottom diagonal dark divider -->
-  <div class="showcase-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1280 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,90 L0,55 L1280,20 L1280,90 Z" fill="#161616"/>
-    </svg>
   </div>
 </section>
 
@@ -1120,7 +1413,7 @@
       <div class="faq-item" role="listitem">
         <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-1">
           <span>מה ההבדל בין המטפחות של FIX לבין מטפחות רגילות?</span>
-          <span class="faq-chevron" aria-hidden="true">&#8249;</span>
+          <span class="faq-chevron" aria-hidden="true">‹</span>
         </button>
         <div class="faq-answer" id="faq-answer-1" role="region">
           <div class="faq-answer-inner">
@@ -1132,7 +1425,7 @@
       <div class="faq-item" role="listitem">
         <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-2">
           <span>באילו מידות ניתן להשיג את המטפחות?</span>
-          <span class="faq-chevron" aria-hidden="true">&#8249;</span>
+          <span class="faq-chevron" aria-hidden="true">‹</span>
         </button>
         <div class="faq-answer" id="faq-answer-2" role="region">
           <div class="faq-answer-inner">
@@ -1144,7 +1437,7 @@
       <div class="faq-item" role="listitem">
         <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-3">
           <span>כיצד לטפל במטפחה ולשמור על איכותה לאורך זמן?</span>
-          <span class="faq-chevron" aria-hidden="true">&#8249;</span>
+          <span class="faq-chevron" aria-hidden="true">‹</span>
         </button>
         <div class="faq-answer" id="faq-answer-3" role="region">
           <div class="faq-answer-inner">
@@ -1156,7 +1449,7 @@
       <div class="faq-item" role="listitem">
         <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-4">
           <span>האם ניתן להזמין מטפחות בהתאמה אישית?</span>
-          <span class="faq-chevron" aria-hidden="true">&#8249;</span>
+          <span class="faq-chevron" aria-hidden="true">‹</span>
         </button>
         <div class="faq-answer" id="faq-answer-4" role="region">
           <div class="faq-answer-inner">
@@ -1168,7 +1461,7 @@
       <div class="faq-item" role="listitem">
         <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-5">
           <span>מה מדיניות ההחזרות והחלפות?</span>
-          <span class="faq-chevron" aria-hidden="true">&#8249;</span>
+          <span class="faq-chevron" aria-hidden="true">‹</span>
         </button>
         <div class="faq-answer" id="faq-answer-5" role="region">
           <div class="faq-answer-inner">
@@ -1180,7 +1473,7 @@
       <div class="faq-item" role="listitem">
         <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-6">
           <span>כמה זמן לוקח המשלוח ומה עלותו?</span>
-          <span class="faq-chevron" aria-hidden="true">&#8249;</span>
+          <span class="faq-chevron" aria-hidden="true">‹</span>
         </button>
         <div class="faq-answer" id="faq-answer-6" role="region">
           <div class="faq-answer-inner">
@@ -1252,12 +1545,12 @@
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="divGrad" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stop-color="#D4B06A" stop-opacity="0.18"/>
-          <stop offset="100%" stop-color="#FCFAF7" stop-opacity="1"/>
+          <stop offset="0%" stop-color="#D4B06A" stop-opacity="0.18"></stop>
+          <stop offset="100%" stop-color="#FCFAF7" stop-opacity="1"></stop>
         </linearGradient>
       </defs>
-      <path d="M0,90 L0,55 Q360,10 720,30 Q1080,50 1440,20 L1440,90 Z" fill="#FCFAF7"/>
-      <path d="M0,90 L0,60 Q360,18 720,38 Q1080,58 1440,28 L1440,90 Z" fill="#FCFAF7"/>
+      <path d="M0,90 L0,55 Q360,10 720,30 Q1080,50 1440,20 L1440,90 Z" fill="#FCFAF7"></path>
+      <path d="M0,90 L0,60 Q360,18 720,38 Q1080,58 1440,28 L1440,90 Z" fill="#FCFAF7"></path>
     </svg>
   </div>
 
