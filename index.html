@@ -1850,7 +1850,34 @@
     <i class="fab fa-whatsapp"></i>
   </a>
   
-  <div data-integration="accessibility:toolbar"></div>
+  <!-- Discount Popup -->
+<div id="discount-popup-overlay" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.55); z-index:99999; align-items:center; justify-content:center;">
+  <div id="discount-popup-box" style="background:#FCFAF7; max-width:460px; width:90%; margin:auto; padding:48px 40px 40px; position:relative; text-align:center; direction:rtl; box-shadow:0 24px 64px rgba(0,0,0,0.18);">
+    <button onclick="document.getElementById('discount-popup-overlay').style.display='none'; localStorage.setItem('fixPopupSeen','1');" style="position:absolute; top:14px; left:16px; background:none; border:none; font-size:22px; cursor:pointer; color:#7C726B; line-height:1;">✕</button>
+    <div style="width:40px; height:2px; background:#D4B06A; margin:0 auto 20px;"></div>
+    <p style="font-family:'Heebo',sans-serif; font-size:0.8rem; letter-spacing:0.18em; color:#7C726B; margin:0 0 10px; text-transform:uppercase;">ברוכות הבאות ל-FIX מטפחות</p>
+    <h2 style="font-family:'Cormorant Garamond',serif; font-size:2.6rem; font-weight:600; color:#161616; margin:0 0 8px; line-height:1.2;">10% הנחה</h2>
+    <p style="font-family:'Heebo',sans-serif; font-size:1.05rem; color:#161616; margin:0 0 6px; font-weight:500;">למצטרפות חדשות!</p>
+    <p style="font-family:'Heebo',sans-serif; font-size:0.9rem; color:#7C726B; margin:0 0 28px; line-height:1.6;">הירשמי לרשימת התפוצה שלנו וקבלי קוד קופון לרכישה הראשונה שלך</p>
+    <form onsubmit="event.preventDefault(); document.getElementById('discount-popup-overlay').style.display='none'; localStorage.setItem('fixPopupSeen','1'); alert('תודה! קוד ההנחה FIX10 נשלח אליך 🎉');" style="display:flex; flex-direction:column; gap:12px;">
+      <input type="email" placeholder="כתובת האימייל שלך" required style="padding:14px 16px; border:1px solid #E7DFD6; background:#fff; font-family:'Heebo',sans-serif; font-size:0.95rem; color:#161616; text-align:right; direction:rtl; outline:none; width:100%; box-sizing:border-box;">
+      <button type="submit" style="background:#161616; color:#FCFAF7; font-family:'Heebo',sans-serif; font-size:0.95rem; font-weight:500; letter-spacing:0.08em; padding:14px 24px; border:none; cursor:pointer; width:100%; transition:background 0.2s;">קבלי את ההנחה שלי</button>
+    </form>
+    <p onclick="document.getElementById('discount-popup-overlay').style.display='none'; localStorage.setItem('fixPopupSeen','1');" style="font-family:'Heebo',sans-serif; font-size:0.8rem; color:#7C726B; margin:16px 0 0; cursor:pointer; text-decoration:underline;">לא תודה, אני מוותרת על ההנחה</p>
+  </div>
+</div>
+<script>
+(function() {
+  if (!localStorage.getItem('fixPopupSeen')) {
+    setTimeout(function() {
+      var overlay = document.getElementById('discount-popup-overlay');
+      if (overlay) { overlay.style.display = 'flex'; }
+    }, 2500);
+  }
+})();
+</script>
+
+    <div data-integration="accessibility:toolbar"></div>
 
     <script src="/script.js"></script>
 
