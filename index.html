@@ -341,29 +341,29 @@
       <div class="search-wrapper">
         <input type="text" id="mobile-search-input" placeholder="חיפוש מוצרים..." autocomplete="off">
         <button class="search-submit" id="mobile-search-submit" title="חיפוש">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
         </button>
         <button class="close-search" id="close-mobile-search">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"></path></svg>
         </button>
       </div>
       <div class="search-results" id="mobile-search-results"></div>
     </div>
   
-<script>window.ZAPPY_WEBSITE_ID = "0d04fdfc-8292-4c3b-af22-61298bc0ea7f";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
+<script>window.ZAPPY_WEBSITE_ID = "0d04fdfc-8292-4c3b-af22-61298bc0ea7f";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
     <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
 
-  <button class="phone-header-btn" data-phone aria-label="Call">
+  <button class="phone-header-btn" data-phone="" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
 
@@ -378,7 +378,7 @@
       <a href="/products">
         מוצרים
         <svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M6 9l6 6 6-6"/>
+          <path d="M6 9l6 6 6-6"></path>
         </svg>
       </a>
       <ul class="sub-menu" id="zappy-nav-category-links">
@@ -386,13 +386,13 @@
         <!-- Categories will be loaded dynamically -->
       </ul>
     </li>
-  <li><a href="/">בית</a></li><li><a href="/collections">קולקציות</a></li><li><a href="/brand-story">הסיפור שלנו</a></li><li><a href="/contact">צור קשר</a></li></ul><div class="nav-ecommerce-icons nav-icons-left"><a href="/login" class="login-link nav-login" title="התחברות"><svg class="login-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></a><a href="#cart" class="cart-link nav-cart" id="cart-drawer-toggle" title="עגלת קניות"><svg class="cart-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg><span class="cart-count">0</span></a><div class="nav-search-box">
+  <li><a href="/">בית</a></li><li><a href="/collections">קולקציות</a></li><li><a href="/brand-story">הסיפור שלנו</a></li><li><a href="/contact">צור קשר</a></li></ul><div class="nav-ecommerce-icons nav-icons-left"><a href="/login" class="login-link nav-login" title="התחברות"><svg class="login-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></a><a href="#cart" class="cart-link nav-cart" id="cart-drawer-toggle" title="עגלת קניות"><svg class="cart-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg><span class="cart-count">0</span></a><div class="nav-search-box">
     <input type="text" class="nav-search-input" id="nav-search-input" placeholder="חיפוש מוצרים..." autocomplete="off">
     <button class="nav-search-btn" id="nav-search-btn" title="חיפוש">
-      <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+      <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
     </button>
     <div class="nav-search-results" id="nav-search-results"></div>
-  </div></div><div class="nav-ecommerce-icons nav-icons-right"><button class="nav-search-toggle" id="mobile-search-toggle" title="חיפוש"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></button></div></div>
+  </div></div><div class="nav-ecommerce-icons nav-icons-right"><button class="nav-search-toggle" id="mobile-search-toggle" title="חיפוש"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg></button></div></div>
 
     
 
@@ -813,7 +813,7 @@
 
 <section id="layout-1778060957036" class="layout-section" data-zappy-component="true" style="width: 100%; padding: 60px 0; direction: rtl;" data-component-id="empty-section">
   <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 0 1.5rem;">
-    <p style="font-size: 16px; line-height: 1.7; color: #1F2937; opacity: 0.5; text-align: center; font-family: system-ui, -apple-system, sans-serif;">הוסף את תוכן הטקסט שלך כאן. זהו טקסט ממלא מקום שניתן לערוך.</p>
+    <p style="font-size: 16px; line-height: 1.7; color: rgb(31, 41, 55); opacity: 0.5; text-align: center; font-family: system-ui, -apple-system, sans-serif;">FIX מטפחות המותג המוביל למטפחות ראש בסיטונאות לעסקים וגם לצרכן&nbsp;</p>
   </div>
 </section>
 
@@ -852,7 +852,7 @@
   <!-- Bottom Divider: soft asymmetric curved ivory reveal -->
   <div class="index-hero-divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,52 Q120,28 360,44 Q600,60 720,36 Q900,14 1200,46 Q1320,58 1440,38 L1440,80 Z" fill="#FCFAF7"/>
+      <path d="M0,80 L0,52 Q120,28 360,44 Q600,60 720,36 Q900,14 1200,46 Q1320,58 1440,38 L1440,80 Z" fill="#FCFAF7"></path>
     </svg>
   </div>
 </section>
@@ -896,7 +896,7 @@
       <!-- Card 1: מטפחות מרובעות -->
       <article class="index-category-card">
         <figure class="index-category-img-wrap">
-          <img data-placeholder="index-categories-image-1" data-context="Elegant square headscarf (mitpachat meruba" at) styled on a mannequin or model, flat lay portrait, clean ivory studio background, black and white fashion photography aesthetic, high-end boutique product shot, luxurious fabric texture visible, minimalist composition' width="600" height="750" src="/assets/site-index-categories-image-1.webp" alt="מטפחות מרובעות FIX">
+          <img data-placeholder="index-categories-image-1" data-context="Elegant square headscarf (mitpachat meruba" at)="" styled="" on="" a="" mannequin="" or="" model,="" flat="" lay="" portrait,="" clean="" ivory="" studio="" background,="" black="" and="" white="" fashion="" photography="" aesthetic,="" high-end="" boutique="" product="" shot,="" luxurious="" fabric="" texture="" visible,="" minimalist="" composition'="" width="600" height="750" src="/assets/site-index-categories-image-1.webp" alt="מטפחות מרובעות FIX">
         </figure>
         <div class="index-category-body">
           <h3 class="index-category-name">מטפחות מרובעות</h3>
@@ -949,8 +949,8 @@
   <!-- Bottom Divider: stepped paper-layer transition -->
   <div class="index-categories-divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1280 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <line x1="0" y1="1" x2="1280" y2="1" stroke="#161616" stroke-width="1"/>
-      <path d="M0,80 L0,20 L320,20 L320,40 L640,40 L640,20 L960,20 L960,40 L1280,40 L1280,80 Z" fill="var(--bg-light)"/>
+      <line x1="0" y1="1" x2="1280" y2="1" stroke="#161616" stroke-width="1"></line>
+      <path d="M0,80 L0,20 L320,20 L320,40 L640,40 L640,20 L960,20 L960,40 L1280,40 L1280,80 Z" fill="var(--bg-light)"></path>
     </svg>
   </div>
 
@@ -963,7 +963,7 @@
       <!-- Corner flourish decoration -->
       <div class="showcase-corner-flourish" aria-hidden="true">
         <svg data-no-icon-edit="true" aria-hidden="true" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M80,2 L2,2 L2,80" stroke="#D4B06A" stroke-width="1" fill="none" opacity="0.35"/>
+          <path d="M80,2 L2,2 L2,80" stroke="#D4B06A" stroke-width="1" fill="none" opacity="0.35"></path>
         </svg>
       </div>
 
@@ -1018,7 +1018,7 @@
   <!-- Bottom diagonal dark divider -->
   <div class="showcase-divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1280 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,90 L0,55 L1280,20 L1280,90 Z" fill="#161616"/>
+      <path d="M0,90 L0,55 L1280,20 L1280,90 Z" fill="#161616"></path>
     </svg>
   </div>
 </section>
@@ -1095,12 +1095,12 @@
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="divGrad" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stop-color="#D4B06A" stop-opacity="0.18"/>
-          <stop offset="100%" stop-color="#FCFAF7" stop-opacity="1"/>
+          <stop offset="0%" stop-color="#D4B06A" stop-opacity="0.18"></stop>
+          <stop offset="100%" stop-color="#FCFAF7" stop-opacity="1"></stop>
         </linearGradient>
       </defs>
-      <path d="M0,90 L0,55 Q360,10 720,30 Q1080,50 1440,20 L1440,90 Z" fill="#FCFAF7"/>
-      <path d="M0,90 L0,60 Q360,18 720,38 Q1080,58 1440,28 L1440,90 Z" fill="#FCFAF7"/>
+      <path d="M0,90 L0,55 Q360,10 720,30 Q1080,50 1440,20 L1440,90 Z" fill="#FCFAF7"></path>
+      <path d="M0,90 L0,60 Q360,18 720,38 Q1080,58 1440,28 L1440,90 Z" fill="#FCFAF7"></path>
     </svg>
   </div>
 
