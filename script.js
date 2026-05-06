@@ -9859,6 +9859,31 @@ window.onload = function() {
   });
 })();
 
+/* Added Component Script */
+(function () {
+  const faqItems = document.querySelectorAll('.faq-fix-section .faq-item');
+
+  faqItems.forEach(function (item) {
+    const btn = item.querySelector('.faq-question');
+
+    btn.addEventListener('click', function () {
+      const isActive = item.classList.contains('active');
+
+      // Close all open items
+      faqItems.forEach(function (el) {
+        el.classList.remove('active');
+        el.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+      });
+
+      // Toggle clicked item
+      if (!isActive) {
+        item.classList.add('active');
+        btn.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+})();
+
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
